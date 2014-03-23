@@ -1,5 +1,6 @@
 # Load DSL and Setup Up Stages
 require 'capistrano/setup'
+require 'pry'
 
 # Includes default deployment tasks
 require 'capistrano/deploy'
