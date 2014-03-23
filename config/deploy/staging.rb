@@ -4,10 +4,10 @@
 # server in each group is considered to be the first
 # unless any hosts have the primary property set.
 # Don't declare `role :all`, it's a meta role
-role :app, %w{michael@autodeploy.us}
-role :web, %w{michael@audodeploy.us}
-role :db,  %w{michael@autodeploy.us}
-
+# role :app, %w{michael@autodeploy.us}
+# role :web, %w{michael@audodeploy.us}
+# role :db,  %w{michael@autodeploy.us}
+server "autodeploy.us", user: 'michael', roles: %w{web app db}, primary: true
 # Extended Server Syntax
 # ======================
 # This can be used to drop a more detailed server
