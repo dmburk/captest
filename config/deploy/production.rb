@@ -8,7 +8,7 @@
 #role :web, %w{deploy@example.com}
 #role :db,  %w{deploy@example.com}
 
-server "autodeploy.us", :app, :web, :db, :primary => true
+#server "autodeploy.us", :app, :web, :db, :primary => true
 # Extended Server Syntax
 # ======================
 # This can be used to drop a more detailed server
