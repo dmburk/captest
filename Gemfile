@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'pry'
+gem 'execjs'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
@@ -42,6 +43,8 @@ end
 # Use Capistrano for deployment
 gem 'capistrano', group: :development
 gem 'capistrano-rails', group: :development
+gem 'capistrano-bundler', '>= 1.1.0', group: :development
+gem 'rvm1-capistrano3', require: false, group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
