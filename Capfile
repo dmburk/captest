@@ -5,6 +5,7 @@ require 'pry'
 # Includes default deployment tasks
 require 'capistrano/deploy'
 require 'capistrano/rails'
+require 'capistrano/rails/assets'
 require 'rvm1/capistrano3'
 
 # Includes tasks from other gems included in your Gemfile

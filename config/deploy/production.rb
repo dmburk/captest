@@ -8,6 +8,8 @@
 #role :web, %w{deploy@example.com}
 #role :db,  %w{deploy@example.com}
 
+server "autodeploy.us", user: 'michael', roles: %w{web app db}, primary: true
+
 #server "autodeploy.us", :app, :web, :db, :primary => true
 # Extended Server Syntax
 # ======================
