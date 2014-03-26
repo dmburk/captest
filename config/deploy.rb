@@ -5,6 +5,7 @@ set :application, 'captest'
 set :repo_url, 'git@github.com:dmburk/captest.git'
 set :deploy_to, '/home/rails/captest'
 set :branch, 'master'
+set :ssh_options, forward_agent: true
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
