@@ -1,4 +1,4 @@
-APP_PATH = "/home/rails/captest"
+APP_PATH = "/home/rails/captest/current"
 
 # Sample verbose configuration file for Unicorn (not Rack)
 #
